@@ -6,12 +6,11 @@ font-size: 1.3rem;
 line-height: 1.3em;
 margin: 0;
 padding: 0;
-background: red;
 }
 
 .header
 {
-  background-color: "#0B2F3A";
+  background: "#0B2F3A";
   color: "#FFFFFF";
   padding: 2rem 0;
 }
