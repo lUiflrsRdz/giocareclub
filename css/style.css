@@ -11,14 +11,14 @@ background-color: white;
 
 .header
 {
-  background: gray;
+  background: "#0B2F3A";
   color: "#FFFFFF";
   padding: 2rem 0;
 }
 
 
 .header a{
-  color: white;
+  font-color: white;
   text-decoration: none;
 }
 
