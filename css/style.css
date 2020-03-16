@@ -1,7 +1,7 @@
 
 body{
 font-family: Candara, Trebuchet MS, Verdana;
-color: "#333";
+font-color: "#333";
 font-size: 1.2rem;
 line-height: 1.4em;
 margin: 0;
@@ -11,9 +11,8 @@ background-color: white;
 
 .header
 {
-  background: "#0B2F3A";
-  color: "#FFFFFF";
   padding: 2rem 0;
+  background: gray;
 }
 
 
