@@ -12,6 +12,10 @@ background-color: white;
 {
   padding: 2rem 0;
   background: #0B2F3A;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
 
 }
 
@@ -25,6 +29,7 @@ background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 
 
 }
@@ -61,10 +66,51 @@ background-color: white;
   max-width: 850px;
   margin: 0 auto;
 }
-
+.main{
+  padding-top: 12rem;
+}
 .footer{
   background: gray;
   padding: 4rem 0;
   text-align: center;
   margin-top: 6rem;
+}
+.menu-icon{
+  display: none;
+}
+
+@media only screen and (max-width: 767px){
+
+  .menu-icon{
+    display: block;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+  }
+
+.navigation{
+  width:100%;
+  margin-top: 1rem;
+}
+
+.navigation ul{
+  display: none;
+
+}
+
+.navigation ul.show{
+  display: block;
+
+}
+
+  .navigation ul li {
+    display: block;
+  }
+
+  .navigation ul li a {
+    display: block;
+    padding: 0.5rem 0;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+  }
+
 }
