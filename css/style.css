@@ -23,7 +23,7 @@ padding: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: black;
+
 
 }
 
@@ -36,6 +36,7 @@ padding: 0;
   margin: 0;
   padding: 0;
   list-style: none;
+  background-color: gray; 
 }
 
 .navigation ul li {
