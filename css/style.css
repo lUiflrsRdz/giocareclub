@@ -11,13 +11,13 @@ background-color: white;
 .header
 {
   padding: 2rem 0;
-  background-color: "#5CD59E";
+  background: "#5CD59E";
 
 }
 
 
 .header a{
-  font-color: white;
+  color: white;
   text-decoration: none;
 }
 
