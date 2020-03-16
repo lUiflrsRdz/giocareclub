@@ -5,6 +5,8 @@ font-color: "#333";
 font-size: 1.3rem;
 line-height: 1.3em;
 margin: 0;
+padding: 0;
+background: red;
 }
 
 .header
