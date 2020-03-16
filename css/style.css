@@ -10,7 +10,7 @@ padding: 0;
 .header
 {
   padding: 2rem 0;
-  background: gray;
+
 }
 
 
@@ -23,6 +23,7 @@ padding: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: black;
 
 }
 
