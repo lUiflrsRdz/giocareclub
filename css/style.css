@@ -10,7 +10,7 @@ margin: 0;
 .header
 {
   background-color: "#0B2F3A";
-  font-color: "#FFFFFF";
+  color: "#FFFFFF";
   padding: 2rem 0;
 }
 .header a{
@@ -47,7 +47,7 @@ margin: 0;
 .container{
   width: 85%
   max-width: 850px;
-   margin: 0 auto;
+  margin: 0 auto;
 }
 
 *{
