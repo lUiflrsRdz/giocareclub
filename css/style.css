@@ -85,6 +85,10 @@ background-color: white;
     display: block;
     cursor: pointer;
     padding: 0.5rem 1rem;
+    width: 100%
+    text-align: center;
+    box-sizing: border-box;
+    color: white;
   }
 
 .navigation{
