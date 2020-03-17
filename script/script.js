@@ -9,7 +9,7 @@ jQuery('document').ready(function($){
 
           menu.removeClass('show');
         }else{menu.addClass('show');
+      }
     });
-  }
 
 });
