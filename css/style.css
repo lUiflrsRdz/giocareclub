@@ -84,18 +84,20 @@ background-color: white;
   display: none;
 }
 
-.burger div{
-  width: 25px;
-  height: 5px;
-  margin: 5px;
-  background-color: #0B2F3A;
-}
+
 
 @media only screen and (max-width: 767px){
 
   .menu-icon{
     display: block;
     cursor: pointer;
+  }
+
+  .burger div{
+    width: 25px;
+    height: 5px;
+    margin: 5px;
+    background-color: #0B2F3A;
   }
 
 .navigation{
