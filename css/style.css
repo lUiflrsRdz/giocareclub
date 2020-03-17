@@ -94,11 +94,12 @@ background-color: white;
   }
 
   .burger div{
-    width: 25px;
+    width: 10px;
     height: 5px;
     margin: 5px;
     padding-top: 5px;
     background-color: #0B2F3A;
+    color: white;
   }
 
 .navigation{
