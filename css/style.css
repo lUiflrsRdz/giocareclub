@@ -75,6 +75,7 @@ background-color: white;
 .main{
   padding-top: 1rem;
 }
+
 .footer{
   background: gray;
   padding: 4rem 0;
@@ -88,7 +89,7 @@ background-color: white;
 .img-banner{
   display: block;
   width: 100%;
-  padding-top: 1rem;
+  padding-top: 10rem;
 }
 
 .main div{
@@ -100,12 +101,12 @@ background-color: white;
 }
 
 .main div .about{
-  background-color: rgba(102, 102, 255, 0.1);
+  background-color: rgba(102, 102, 255, 0.5);
   margin-top: 10%;
   text-align: justify;
   width: auto;
   justify-content: center;
-  border-radius: 50%;
+  border-radius: 30%;
 
 }
 
@@ -116,7 +117,6 @@ background-color: white;
   padding: 20px;
   line-height: 20px;
   color: #8e8b8b;
-  position: relative;
 
 
 }
@@ -126,7 +126,7 @@ background-color: white;
   text-align: center;
   font-size: 26px;
   margin-top: 10px;
-  padding-top: 10px;
+  padding-top: 20px;
   font-weight: bold;
 }
 
