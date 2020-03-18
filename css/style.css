@@ -126,6 +126,7 @@ background-color: white;
 
 .mis-vis{
   text-align: center;
+  display: inline-block;
 }
 
 .main div h2{
