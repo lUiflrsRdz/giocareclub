@@ -102,7 +102,7 @@ background-color: white;
 
 .main div .about{
   background-color: rgba(102, 102, 255, 0.5);
-  margin-top: 10%;
+  margin: 10px 10px 30px 30px;
   text-align: justify;
   width: auto;
   justify-content: center;
