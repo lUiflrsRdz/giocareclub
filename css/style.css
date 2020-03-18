@@ -92,53 +92,23 @@ background-color: white;
   padding-top: 100px;
 }
 
-.main div{
- background-color: rgba(0, 255, 0, 0.1);
-  margin-top: 50px;
-  padding: 10px;
+.grid-container{
+  width: 90%
+  max-width: 1000px;
+  border: 10px solid black;
+  margin: auto;
+  font-size: 50px;
+  line-height: 50px;
   text-align: center;
-  width: auto;
-  justify-content: center;
 }
 
-.main div .about{
-  background-color: rgba(102, 102, 255, 0.5);
-  margin: 10px 10px 10px 10px;
-  width: auto;
-  text-align: justify;
-  justify-content: center;
-  border-radius: 15%;
-  border-width: 10px;
-  padding: 30px 30px 30px 30px;
+.grid-container div{
+display: block;
+padding: 20px;
+color: white;
+background: black;
 
 }
-
-.main div p{
-  margin: 5px;
-  margin-bottom: 50px;
-  width: 300px;
-  padding: 30px 20px 10px 25px;
-  line-height: 20px;
-  color: #7B7F86;
-  display: inline-block;
-  text-align: justify;
-}
-
-.mis-vis{
-  text-align: center;
-  display: inline-block;
-}
-
-.main div h2{
-  color: #7B7F86;
-  text-align: center;
-  font-size: 26px;
-  margin-top: 20px;
-  padding-top: 20px;
-  font-weight: bold;
-}
-
-
 
 @media only screen and (max-width: 767px){
 
