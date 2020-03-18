@@ -91,9 +91,8 @@ background-color: white;
   padding-top: 200px;
 }
 
-.container-info{
-  border: 50px solid #466995;
-  background-color: rgba(0, 255, 0, 0.1);
+.main div{
+  text-align: center;
 }
 
 
