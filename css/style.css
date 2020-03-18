@@ -94,7 +94,8 @@ background-color: white;
 
 .main div{
  background-color: rgba(0, 255, 0, 0.1);
-  margin-top: 20%;
+  margin-top: 50px;
+  padding: 10px;
   text-align: center;
   width: auto;
   justify-content: center;
