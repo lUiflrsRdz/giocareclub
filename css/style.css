@@ -73,7 +73,7 @@ background-color: white;
   margin: 0 auto;
 }
 .main{
-  padding-top: 2rem;
+  padding-top: 1rem;
 }
 .footer{
   background: gray;
@@ -88,11 +88,10 @@ background-color: white;
 .img-banner{
   display: block;
   width: 100%;
-  padding-top: 200px;
+  padding-top: 1rem;
 }
 
 .main div{
-  border: 50px solid #466995;
   background-color: rgba(0, 255, 0, 0.1);
   margin-top: 10%;
   text-align: center;
@@ -123,7 +122,7 @@ background-color: white;
 }
 
 .main div h2{
-  color: blue;
+  color: gray;
   text-align: center;
   font-size: 26px;
   margin-top: 10px;
