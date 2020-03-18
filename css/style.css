@@ -102,13 +102,13 @@ background-color: white;
 
 .main div .about{
   background-color: rgba(102, 102, 255, 0.5);
-  margin: 10px;
+  margin: 10px 10px 10px 10px;
   width: auto;
   text-align: justify;
   justify-content: center;
-  border-radius: 5%;
+  border-radius: 15%;
   border-width: 10px;
-  padding: 10px;
+  padding: 30px 30px 30px 30px;
 
 }
 
