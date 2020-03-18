@@ -73,7 +73,7 @@ background-color: white;
   margin: 0 auto;
 }
 .main{
-  padding-top: 12rem;
+  padding-top: 2rem;
 }
 .footer{
   background: gray;
@@ -98,6 +98,16 @@ background-color: white;
   text-align: center;
   width: auto;
   justify-content: center;
+}
+
+.main div .about{
+  border: 50px solid #466995;
+  background-color: rgba(0, 255, 0, 0.1);
+  margin-top: 10%;
+  text-align: center;
+  width: auto;
+  justify-content: center;
+
 }
 
 .main div p{
