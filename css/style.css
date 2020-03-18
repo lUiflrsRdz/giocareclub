@@ -93,20 +93,19 @@ background-color: white;
 
 .main div{
   background-color: rgba(0, 255, 0, 0.1);
-  margin-top: 10%;
+  margin-top: 20%;
   text-align: center;
   width: auto;
   justify-content: center;
 }
 
 .main div .about{
-  border: 50px solid #466995;
-  background-color: rgba(0, 255, 0, 0.1);
+  background-color: rgba(102, 102, 255, 0.1);
   margin-top: 10%;
-  text-align: center;
+  text-align: justify;
   width: auto;
   justify-content: center;
-  border-radius: 10%;
+  border-radius: 50%;
 
 }
 
