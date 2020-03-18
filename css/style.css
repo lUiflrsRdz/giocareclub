@@ -94,10 +94,29 @@ background-color: white;
 .main div{
   border: 50px solid #466995;
   background-color: rgba(0, 255, 0, 0.1);
+  margin-top: 10%;
+  text-align: center;
+  width: auto;
+  justify-content: center;
 }
 
 .main div p{
+
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 300px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;
+  position: relative;
+
+}
+
+.main div h2{
+  color: blue;
   text-align: center;
+  font-size: 26px;
+  margin-top: 10px;
 }
 
 
