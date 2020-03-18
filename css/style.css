@@ -121,9 +121,11 @@ background-color: white;
   line-height: 20px;
   color: #7B7F86;
   display: inline-block;
+  text-align: justify;
+}
+
+.mis-vis{
   text-align: center;
-
-
 }
 
 .main div h2{
