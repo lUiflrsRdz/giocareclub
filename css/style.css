@@ -89,7 +89,7 @@ background-color: white;
 .img-banner{
   display: block;
   width: 100%;
-  padding-top: 10rem;
+  padding-top: 100px;
 }
 
 .main div{
@@ -117,6 +117,7 @@ background-color: white;
   padding: 20px;
   line-height: 20px;
   color: #8e8b8b;
+  display: inline-block;
 
 
 }
