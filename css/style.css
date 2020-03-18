@@ -92,7 +92,8 @@ background-color: white;
 }
 
 .main div{
-  text-align: center;
+  border: 50px solid #466995;
+  background-color: rgba(0, 255, 0, 0.1);
 }
 
 
