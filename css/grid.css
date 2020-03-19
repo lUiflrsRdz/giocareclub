@@ -22,7 +22,7 @@
   display: grid;
   grid-template-rows: 10% 90%;
   grid-gap: 10px;
-  
+
 }
 
 .banner-img{
@@ -31,6 +31,7 @@
 }
 .container-valores .valores{
   display: grid;
+  padding-bottom: 20px;
   grid-template-rows: 50% 50%;
   grid-template-columns: 50% 50%;
 
