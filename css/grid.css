@@ -36,3 +36,8 @@
   grid-template-columns: 50% 50%;
 
 }
+
+.container-valores .valores div h3{
+padding-bottom: 10px;
+
+}
