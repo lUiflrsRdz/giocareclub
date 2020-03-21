@@ -1,8 +1,16 @@
+@import url(https://fonts.googleapis.com/css?family=Caveat+Brush);
+
 *{
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
+
+.main {
+  padding-top: 5rem;
+
+}
+
 
 body{
 font-family:  Candara, Trebuchet MS, Verdana;
@@ -11,23 +19,36 @@ line-height: 1.4em;
 margin: 0;
 padding: 0;
 background-color: white;
+
 }
+
+
 
 .header
 {
   padding: 2rem 0;
-  background: #0B2F3A;
+  background: rgba(64, 0, 64, 0.6);
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
-
+  font-size: 1.5rem;
 }
 
 
 .header a{
   color: white;
   text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.container{
+  width: 85%
+  max-width: 850px;
+  margin: 0 auto;
 }
 
 .logo-nav-container{
@@ -35,15 +56,23 @@ background-color: white;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-
-
 }
 
-.logo{
-  letter-spacing: 15px;
-  font-size: 1.3em;
-  font-weight: bold;
+
+.img-logo{
+  float: left;
+  width: 10%;
 }
+
+
+.menu-icon{
+  display: none;
+}
+
+
+
+
+
 
 .navigation ul {
   margin: 0;
@@ -67,14 +96,45 @@ background-color: white;
   background: #5CD59E;
 }
 
-.container{
-  width: 85%
-  max-width: 850px;
-  margin: 0 auto;
+
+
+.slider
+{
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+
 }
-.main{
-  padding-top:50px;
+.slider ul{
+  display: flex;
+  padding: 0;
+  width: 400%;
+
+  animation: change 20s infinite;
+
 }
+.slider li{
+  width: 100%;
+  list-style: none;
+}
+
+.slider img{
+  width: 100%;
+}
+@keyframes change {
+  0% {margin-left: 0;}
+  20% {margin-left: 0;}
+
+  25% {margin-left: -100%;}
+  45% {margin-left: -100%;}
+
+  50% {margin-left: -200%;}
+  70% {margin-left: -200%;}
+
+  75% {margin-left: -300%;}
+  90% {margin-left: -300%;}
+}
+
 
 .footer{
   background: gray;
@@ -82,78 +142,105 @@ background-color: white;
   text-align: center;
   margin-top: 6rem;
 }
-.menu-icon{
-  display: none;
-}
 
-.img-banner{
-  display: block;
-  width: 80%;
-  padding-top: 110px;
-  margin: auto;
-}
 
 .grid-container-style{
   width: 90%
   max-width: 1000px;
-  border: 10px solid rgba(0, 255, 0, 0.4);
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-top: 10px;
-  line-height: 50px;
   text-align: center;
-  background-color: rgba(0, 255, 0, 0.1);
-
-}
-.grid-container .about{
-  text-align: justify;
-
-}
-.grid-container .about p{
-padding: 10px 10px 30px 30px;
-
-}
-
-.grid-container .about h2{
-  text-align: center;
-  padding-top: 100px;
-  padding-bottom: 20px;
-}
-
-.grid-container .mis-vis{
-  padding-top: 50px;
-  padding-bottom: 20px;
 
 }
 
 .grid-container-style div{
-display: block;
 padding: 20px;
-color: white;
-background: rgba(102, 102, 255, 0.8);
-box-shadow: 2px 2px 10px rgba(102, 102, 255, 1);
-font-size: 20px;
+color: black;
+box-shadow: 2px 2px 10px rgba(102, 102, 255, 0.1);
 line-height: 1.4em;
 
 }
-.valores{
-  text-align: justify;
+
+
+.about-slogan h2{
+  font-family:  "Caveat Brush", Trebuchet MS, Verdana;
+  background: white;
+  font-size: 40px;
+  padding-top: 200px;
+  padding-bottom: 5px;
+}
+
+.about-slogan h3{
+  background: white;
+}
+
+.slogan{
+  width: 50%;
 }
 
 
-.main .talleres{
-  width: 100%
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 100px;
-  padding-top: 100px;
+
+
+
+.container-info .about-info{
+  background: rgba(102, 102, 255, 0.1);
+  justify-content: center;
+
+}
+
+
+
+
+
+.talleres{
+
+margin-top: 200px;
+padding-top: 170px;
+padding-bottom: 100px;
+text-align: center;
+
+}
+
+.talleres h3{
   text-align: center;
-
 }
-.img-taller{
-  display: inline-flex;
+.talleres .img-taller{
   width: 30%;
 }
+
+.tareas{
+
+margin-top: 200px;
+padding-top: 170px;
+padding-bottom: 100px;
+text-align: center;
+
+}
+
+.tareas h3{
+  text-align: center;
+}
+.tareas .img-tareas{
+  width: 30%;
+}
+
+.tareas div{
+  padding-bottom: 200px;
+}
+
+.container-lib div .img-lib{
+
+    width: 30%;
+
+}
+
+.container-lib{
+
+margin-top: 200px;
+padding-top: 170px;
+padding-bottom: 100px;
+text-align: center;
+
+}
+
 
 @media only screen and (max-width: 767px){
 
@@ -201,5 +288,6 @@ line-height: 1.4em;
   .navigation ul li a:hover {
     background: #5CD59E;
   }
+
 
 }
