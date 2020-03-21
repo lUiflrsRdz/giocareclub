@@ -231,9 +231,15 @@ text-align: center;
 @media only screen and (max-width: 767px){
 
   .main {
-    padding-top: 3rem;
+    padding-top: 4rem;
 
   }
+
+  .img-logo{
+    float: left;
+    width: 20%;
+  }
+
   .menu-icon{
     display: block;
     cursor: pointer;
