@@ -289,5 +289,9 @@ text-align: center;
     background: #5CD59E;
   }
 
+  .img-logo{
+    float: left;
+    width: 20%;
+  }
 
 }
