@@ -17,8 +17,41 @@
   justify-content: center;
 }
 
+.about-slogan h2{
 
+  padding-top: 200px;
+}
 
+.talleres{
+
+margin-top: 200px;
+padding-top: 170px;
+padding-bottom: 100px;
+text-align: center;
+
+}
+
+.tareas{
+
+margin-top: 200px;
+padding-top: 170px;
+padding-bottom: 100px;
+text-align: center;
+
+}
+
+.tareas div{
+  padding-bottom: 200px;
+}
+
+.container-lib{
+
+margin-top: 200px;
+padding-top: 170px;
+padding-bottom: 100px;
+text-align: center;
+
+}
 
 .grid-container-style{
   margin-left: 150px;
