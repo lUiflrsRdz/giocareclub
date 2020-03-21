@@ -114,7 +114,8 @@ background-color: white;
 }
 .slider li{
   width: 100%;
-  list-style: none;
+  list-style: none;  
+  padding-left: 1rem;
 }
 
 .slider img{
@@ -276,7 +277,7 @@ text-align: center;
 
   .navigation ul li a {
     display: block;
-    padding: 0.5rem 0 0.5rem 0.5rem;
+    padding: 0.5rem 0;
     transition: all 0.4s linear;
     border-radius: 5px;
   }
