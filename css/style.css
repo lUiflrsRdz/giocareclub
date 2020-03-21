@@ -86,7 +86,7 @@ background-color: white;
 
 .navigation ul li a {
   display: block;
-  padding: 0.5rem 1rem 0.5rem 0.5rem;
+  padding: 0.5rem 1rem;
   transition: all 0.4s linear;
   border-radius: 5px;
 }
@@ -276,7 +276,7 @@ text-align: center;
 
   .navigation ul li a {
     display: block;
-    padding: 0.5rem 0;
+    padding: 0.5rem 0 0.5rem 0.5rem;
     transition: all 0.4s linear;
     border-radius: 5px;
   }
