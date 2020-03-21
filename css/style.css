@@ -64,6 +64,10 @@ background-color: white;
   display: none;
 }
 
+.img-logo{
+  float: left;
+  width: 40%;
+}
 
 
 
@@ -284,9 +288,5 @@ text-align: center;
     background: #5CD59E;
   }
 
-  .img-logo{
-    float: left;
-    width: 30%;
-  }
 
 }
