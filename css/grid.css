@@ -111,7 +111,7 @@ text-align: center;
 .tareas{
 
   display: grid;
-  grid-template-rows: 50% 50%;
+  grid-template-rows: 70% 30%;
   justify-content: center;
 
 
