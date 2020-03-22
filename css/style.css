@@ -12,9 +12,7 @@ font-size: 1.2rem;
 line-height: 1.4em;
 margin: 0;
 padding: 0;
-background-image: url(../img/fondo.png);
-background-attachment: fixed;
-background-position: 0px 200px;
+background: rgba(255, 255, 255, 1);
 
 
 }
