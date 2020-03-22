@@ -1,0 +1,37 @@
+@media only screen and (min-width: 768px){
+
+  .menu-icon{
+    display: none
+  }
+  .img-logo{
+    width: 150px;
+  }
+  .navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+
+  }
+
+  .navigation ul li {
+    display: inline-block;
+  }
+
+  .navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+    font-weight: bolder;
+
+  }
+
+
+  .navigation ul li a:hover {
+    background: #5CD59E;
+  }
+
+}

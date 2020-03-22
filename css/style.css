@@ -6,47 +6,33 @@
   box-sizing: border-box;
 }
 
-.main {
-  padding-top: 5rem;
-
-}
-
-
 body{
 font-family:  Candara, Trebuchet MS, Verdana;
 font-size: 1.2rem;
 line-height: 1.4em;
 margin: 0;
 padding: 0;
-background-color: white;
+background-image: url(../img/fondo.png);
+background-attachment: fixed;
+background-position: 0px 200px;
+
 
 }
 
-
-
 .header
 {
-  padding: 2rem 0;
-  background: rgba(64, 0, 64, 0.6);
+  padding: 0.5rem 0;
+  background: rgba(83, 185, 137, 0.5);
   position: fixed;
   left: 0;
   top: 0;
   right: 0;
   font-size: 1.5rem;
-}
 
-
-.header a{
-  color: white;
-  text-decoration: none;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  flex-wrap: wrap;
 }
 
 .container{
-  width: 85%
+  width: 75%
   max-width: 850px;
   margin: 0 auto;
 }
@@ -56,235 +42,4 @@ background-color: white;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-}
-
-
-
-.menu-icon{
-  display: none;
-}
-
-.img-logo{
-  float: left;
-  width: 15%;
-}
-
-
-
-
-
-.navigation ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-
-}
-
-.navigation ul li {
-  display: inline-block;
-}
-
-.navigation ul li a {
-  display: block;
-  padding: 0.5rem 1rem;
-  transition: all 0.4s linear;
-  border-radius: 5px;
-}
-
-.navigation ul li a:hover {
-  background: #5CD59E;
-}
-
-
-
-.slider
-{
-  width: 100%;
-  margin: auto;
-  overflow: hidden;
-
-}
-.slider ul{
-  display: flex;
-  padding: 0;
-  width: 400%;
-
-  animation: change 20s infinite;
-
-}
-.slider li{
-  width: 100%;
-  list-style: none;  
-  padding-left: 1rem;
-}
-
-.slider img{
-  width: 100%;
-}
-@keyframes change {
-  0% {margin-left: 0;}
-  20% {margin-left: 0;}
-
-  25% {margin-left: -100%;}
-  45% {margin-left: -100%;}
-
-  50% {margin-left: -200%;}
-  70% {margin-left: -200%;}
-
-  75% {margin-left: -300%;}
-  90% {margin-left: -300%;}
-}
-
-
-.footer{
-  background: gray;
-  padding: 4rem 0;
-  text-align: center;
-  margin-top: 6rem;
-}
-
-
-.grid-container-style{
-  width: 90%
-  max-width: 1000px;
-  text-align: center;
-
-}
-
-.grid-container-style div{
-padding: 20px;
-color: black;
-box-shadow: 2px 2px 10px rgba(102, 102, 255, 0.1);
-line-height: 1.4em;
-
-}
-
-
-.about-slogan h2{
-  font-family:  "Caveat Brush", Trebuchet MS, Verdana;
-  background: white;
-  font-size: 40px;
-  padding-bottom: 5px;
-}
-
-.about-slogan h3{
-  background: white;
-}
-
-.slogan{
-  width: 50%;
-}
-
-
-
-
-
-.container-info .about-info{
-  background: rgba(102, 102, 255, 0.1);
-  justify-content: center;
-
-}
-
-
-
-
-
-.talleres{
-
-text-align: center;
-
-}
-
-.talleres h3{
-  text-align: center;
-}
-.talleres .img-taller{
-  width: 20%;
-}
-
-.tareas{
-
-text-align: center;
-
-}
-
-.tareas h3{
-  text-align: center;
-}
-.tareas .img-tareas{
-  width: 30%;
-}
-
-
-
-.container-lib div .img-lib{
-
-    width: 30%;
-
-}
-
-.container-lib{
-text-align: center;
-
-}
-
-
-@media only screen and (max-width: 767px){
-
-  .main {
-    padding-top: 4rem;
-
-  }
-
-  .img-logo{
-    float: left;
-    width: 20%;
-  }
-
-  .menu-icon{
-    display: block;
-    cursor: pointer;
-  }
-
-  .burger div{
-    width: 25px;
-    height: 3px;
-    background-color: white;
-    margin: 5px;
-
-  }
-
-
-
-.navigation{
-  width:100%;
-  margin-top: 1rem;
-}
-
-.navigation ul{
-  display: none;
-
-}
-
-.navigation ul.show{
-  display: block;
-
-}
-
-  .navigation ul li {
-    display: block;
-  }
-
-  .navigation ul li a {
-    display: block;
-    padding: 0.5rem 0;
-    transition: all 0.4s linear;
-    border-radius: 5px;
-  }
-
-  .navigation ul li a:hover {
-    background: #5CD59E;
-  }
-
-
 }
