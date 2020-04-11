@@ -13,7 +13,8 @@ line-height: 1.4em;
 margin: 0;
 padding: 0;
 background-image: url(../img/fondo.jpg);
-
+overflow-y: scroll;
+overflow-x: hidden;
 
 }
 
