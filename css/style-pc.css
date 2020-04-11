@@ -77,4 +77,16 @@
       90% {margin-left: -150%;}
     }
 
+
+
+
+    .footer{
+      background: rgba(0, 0, 0, 0.8);
+      font-size: 15px;
+      color: white;
+      padding: 4rem 0;
+      text-align: center;
+      margin-top: 6rem;
+    }
+
 }
