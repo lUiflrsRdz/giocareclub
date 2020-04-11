@@ -41,3 +41,13 @@ background-image: url(../img/fondo.jpg);
   align-items: center;
   flex-wrap: wrap;
 }
+
+
+
+.footer{
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 4rem 0;
+  text-align: center;
+  margin-top: 6rem;
+}
