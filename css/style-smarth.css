@@ -57,7 +57,7 @@
 .slider
 {
   width: 100%;
-  padding-top: 100px;
+  padding-top: 108px;
   margin: auto;
   overflow: hidden;
 
@@ -121,12 +121,15 @@
 
 
   .footer{
+    position: absolute;
+    right: 0;
+   bottom: 0;
+   left: 0;
+   padding: 1rem;
     background: rgba(0, 0, 0, 0.8);
     font-size: 12px;
     color: white;
-    padding: 4rem 0;
     text-align: center;
-    margin-top: 6rem;
   }
 
 
