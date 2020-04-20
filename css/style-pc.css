@@ -96,6 +96,7 @@
 
     .contenedor-flex {
     width: 50%;
+    flex-direction: row;
     }
 
     .mis{

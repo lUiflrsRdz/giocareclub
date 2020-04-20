@@ -136,6 +136,7 @@
   .contenedor-flex {
   width: 80%;
   line-height: 20px;
+  flex-direction: column;
   }
 
   .mis{
