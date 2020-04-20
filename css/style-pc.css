@@ -46,6 +46,7 @@
     margin: auto;
     overflow: hidden;
 
+
   }
   .slider ul{
     display: flex;
@@ -77,19 +78,52 @@
       90% {margin-left: -150%;}
     }
 
-
-
-
-    .footer{
-      position: absolute;
-      right: 0;
-     bottom: 0;
-     left: 0;
-     padding: 1rem;
-      background: rgba(0, 0, 0, 0.8);
-      font-size: 20px;
-      color: white;
+    .ABOUT{
+      font-size: 18px;
       text-align: center;
     }
+
+    .ABOUT p{
+      font-size: 18px;
+      text-align: justify;
+    }
+
+    .mis-vis{
+      font-size: 18px;
+      text-align: justify;
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    footer{
+      font-size: 15px;
+    /*  position: absolute;
+      right: 0;
+      bottom: 0 !important;
+      bottom: -1px;
+     left: 0;
+     padding: 1rem;*/
+
+    }
+
 
 }

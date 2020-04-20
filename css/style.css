@@ -16,6 +16,7 @@ background-image: url(../img/fondo.jpg);
 overflow-y: scroll;
 overflow-x: hidden;
 
+
 }
 
 .header
@@ -41,4 +42,70 @@ overflow-x: hidden;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+}
+
+
+.contenedor {
+margin: 10px auto;
+width: 60%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.ABOUT {
+background-color: #5DEAA8;
+border: 1px solid #99cccc;
+padding: 50px;
+margin-bottom: 30px;
+}
+
+.mis-vis{
+  background-color: #F39C12;
+  border: 1px solid #F39C12;
+  padding: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  bottom:0;
+  width:100%;
+  position: relative;
+  /*
+  position:fixed;
+
+
+
+  bottom:0;
+  clear:both;
+  width:100%;
+  position: absolute;
+  right: 0;
+ bottom: 0 !important;
+ bottom: -1px;
+ left: 0;
+
+  */
+
 }

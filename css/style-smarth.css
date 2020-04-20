@@ -117,20 +117,44 @@
   }
 
 
-
-
-
-  .footer{
-    position: absolute;
-    right: 0;
-   bottom: 0;
-   left: 0;
-   padding: 1rem;
-    background: rgba(0, 0, 0, 0.8);
-    font-size: 12px;
-    color: white;
+  .ABOUT{
+    font-size: 15px;
     text-align: center;
   }
+
+  .ABOUT p{
+    font-size: 16px;
+    text-align: justify;
+  }
+
+.mis-vis{
+  font-size: 16px;
+  text-align: center;
+
+}
+
+
+
+
+
+
+
+
+  footer{
+    font-size: 12px;
+    /* position: absolute;
+    right: 0;
+   bottom: 0 !important;
+   bottom: -1px;
+   left: 0;
+   padding: 1rem;
+*/
+
+
+
+  }
+
+
 
 
 
