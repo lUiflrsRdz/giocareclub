@@ -47,7 +47,6 @@ overflow-x: hidden;
 
 .contenedor {
 margin: 10px auto;
-width: 60%;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -56,14 +55,12 @@ justify-content: center;
 .ABOUT {
 background-color: #5DEAA8;
 border: 1px solid #99cccc;
-padding: 50px;
 margin-bottom: 30px;
 }
 
 .mis-vis{
   background-color: #F39C12;
   border: 1px solid #F39C12;
-  padding: 50px;
 }
 
 

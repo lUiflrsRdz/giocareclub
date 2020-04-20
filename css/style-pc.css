@@ -78,9 +78,15 @@
       90% {margin-left: -150%;}
     }
 
+    .contenedor {
+    width: 60%;
+
+    }
+
     .ABOUT{
       font-size: 18px;
       text-align: center;
+      padding: 50px;
     }
 
     .ABOUT p{
@@ -91,6 +97,7 @@
     .mis-vis{
       font-size: 18px;
       text-align: justify;
+      padding: 50px;
 
     }
 
