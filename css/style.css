@@ -58,9 +58,23 @@ border: 1px solid #99cccc;
 margin-bottom: 30px;
 }
 
-.mis-vis{
-  background-color: #F39C12;
-  border: 1px solid #F39C12;
+.contenedor-flex {
+margin: 10px auto;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.mis{
+  background-color: #FBA927;
+  border: 1px solid #FBA927;
+  margin-bottom: 30px;
+}
+
+.vis{
+  background-color: #FBA927;
+  border: 1px solid #FBA927;
+  margin-bottom: 30px;
 }
 
 

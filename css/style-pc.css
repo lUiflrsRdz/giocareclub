@@ -94,13 +94,21 @@
       text-align: justify;
     }
 
-    .mis-vis{
+    .contenedor-flex {
+    width: 50%;
+    }
+
+    .mis{
       font-size: 18px;
       text-align: justify;
       padding: 50px;
 
     }
-
+    .vis{
+      font-size: 18px;
+      text-align: justify;
+      padding: 37px;
+    }
 
 
 

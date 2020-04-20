@@ -133,13 +133,23 @@
     text-align: justify;
   }
 
-.mis-vis{
-  font-size: 15px;
-  text-align: center;
-  padding: 10px;
+  .contenedor-flex {
+  width: 80%;
   line-height: 20px;
+  }
 
-}
+  .mis{
+    font-size: 15px;
+    text-align: justify;
+    padding: 30px;
+
+  }
+  .vis{
+    font-size: 15px;
+    text-align: justify;
+    padding: 20px;
+  }
+
 
 
 
