@@ -122,20 +122,20 @@
   }
 
   .ABOUT{
-    font-size: 8px;
+    font-size: 10px;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
   }
 
   .ABOUT p{
-    font-size: 8px;
+    font-size: 10px;
     text-align: justify;
   }
 
 .mis-vis{
-  font-size: 8px;
+  font-size: 10px;
   text-align: center;
-  padding: 20px;
+  padding: 10px;
 
 }
 
