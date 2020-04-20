@@ -122,10 +122,10 @@
   }
 
   .ABOUT{
-    font-size: 12px;
+    font-size: 15px;
     text-align: center;
     padding: 10px;
-    line-height: 12px;
+    line-height: 20px;
   }
 
   .ABOUT p{
@@ -134,10 +134,10 @@
   }
 
 .mis-vis{
-  font-size: 12px;
+  font-size: 15px;
   text-align: center;
   padding: 10px;
-  line-height: 12px;
+  line-height: 20px;
 
 }
 
